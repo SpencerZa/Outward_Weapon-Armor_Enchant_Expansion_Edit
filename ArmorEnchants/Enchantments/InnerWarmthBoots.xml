@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>64</EnchantmentID>
+  <Name>Inner Warmth</Name>
+  <Description />
+  <IncenseItemID>6000190</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>South</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Boots</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Boots</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas />
+  <Temperature>
+    <TemperatureSteps>Hot</TemperatureSteps>
+    <TemperatureSteps>VeryHot</TemperatureSteps>
+    <TemperatureSteps>Hottest</TemperatureSteps>
+  </Temperature>
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects />
+  <AddedDamages />
+  <StatModifications />
+  <FlatDamageAdded />
+  <DamageModifierBonus>
+    <SL_Damage>
+      <Damage>10</Damage>
+      <Type>Fire</Type>
+    </SL_Damage>
+  </DamageModifierBonus>
+  <DamageResistanceBonus>
+    <SL_Damage>
+      <Damage>-15</Damage>
+      <Type>Ethereal</Type>
+    </SL_Damage>
+  </DamageResistanceBonus>
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>

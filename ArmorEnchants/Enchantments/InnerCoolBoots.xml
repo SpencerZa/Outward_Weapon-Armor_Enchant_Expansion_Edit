@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>61</EnchantmentID>
+  <Name>Inner Cool</Name>
+  <Description />
+  <IncenseItemID>6000210</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Boots</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Boots</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas />
+  <Temperature>
+    <TemperatureSteps>Cold</TemperatureSteps>
+    <TemperatureSteps>VeryCold</TemperatureSteps>
+    <TemperatureSteps>Coldest</TemperatureSteps>
+  </Temperature>
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects />
+  <AddedDamages />
+  <StatModifications />
+  <FlatDamageAdded />
+  <DamageModifierBonus>
+    <SL_Damage>
+      <Damage>10</Damage>
+      <Type>Frost</Type>
+    </SL_Damage>
+  </DamageModifierBonus>
+  <DamageResistanceBonus>
+    <SL_Damage>
+      <Damage>-15</Damage>
+      <Type>Electric</Type>
+    </SL_Damage>
+  </DamageResistanceBonus>
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>

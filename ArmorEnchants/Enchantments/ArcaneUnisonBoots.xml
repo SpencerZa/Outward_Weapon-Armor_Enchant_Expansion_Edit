@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>79</EnchantmentID>
+  <Name>Arcane Unison</Name>
+  <Description />
+  <IncenseItemID>6000230</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>South</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Boots</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Boots</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas>
+    <AreaEnum>ChersoDungeon4_BC</AreaEnum>
+    <AreaEnum>ChersoDungeon4</AreaEnum>
+    <AreaEnum>ChersoDungeon4_HM</AreaEnum>
+    <AreaEnum>ChersoDungeon4_LV</AreaEnum>
+  </Areas>
+  <Temperature />
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects />
+  <AddedDamages />
+  <StatModifications>
+    <StatModification>
+      <Stat>CooldownReduction</Stat>
+      <Type>Modifier</Type>
+      <Value>5</Value>
+    </StatModification>
+    <StatModification>
+      <Stat>ManaRegen</Stat>
+      <Type>Bonus</Type>
+      <Value>0.1</Value>
+    </StatModification>
+  </StatModifications>
+  <FlatDamageAdded />
+  <DamageModifierBonus />
+  <DamageResistanceBonus />
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>

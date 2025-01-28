@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>28</EnchantmentID>
+  <Name>Spirit of Harmattan</Name>
+  <Description />
+  <IncenseItemID>6000260</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>South</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Helmet</SelectorValue>
+      </IngredientData>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Armor</SelectorValue>
+      </IngredientData>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Boots</SelectorValue>
+      </IngredientData>
+    </Equipments>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas>
+    <AreaEnum>AntiqueField</AreaEnum>
+  </Areas>
+  <Temperature />
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects />
+  <AddedDamages />
+  <StatModifications>
+    <StatModification>
+      <Stat>CooldownReduction</Stat>
+      <Type>Modifier</Type>
+      <Value>5</Value>
+    </StatModification>
+  </StatModifications>
+  <FlatDamageAdded />
+  <DamageModifierBonus>
+    <SL_Damage>
+      <Damage>25</Damage>
+      <Type>Decay</Type>
+    </SL_Damage>
+  </DamageModifierBonus>
+  <DamageResistanceBonus />
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>
