@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>6</EnchantmentID>
+  <Name>Forge Fire</Name>
+  <Description />
+  <IncenseItemID>6000180</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Weapon</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Weapon</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas />
+  <Temperature />
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects>
+    <SL_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_ShootEnchantmentBlast">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <CastPosition>Given</CastPosition>
+          <LocalPositionAdd>
+            <x>0</x>
+            <y>1.5</y>
+            <z>0</z>
+          </LocalPositionAdd>
+          <NoAim>false</NoAim>
+          <TargetType>Enemies</TargetType>
+          <TransformName>ShooterTransform</TransformName>
+          <BaseBlast>FireBlast_Enchantment</BaseBlast>
+          <Radius>3</Radius>
+          <RefreshTime>0.1</RefreshTime>
+          <BlastLifespan>0</BlastLifespan>
+          <InstantiatedAmount>1</InstantiatedAmount>
+          <Interruptible>false</Interruptible>
+          <MaxHitTargetCount>-1</MaxHitTargetCount>
+          <AffectHitTargetCenter>false</AffectHitTargetCenter>
+          <HitOnShoot>true</HitOnShoot>
+          <IgnoreShooter>false</IgnoreShooter>
+          <IgnoreStop>false</IgnoreStop>
+          <NoTargetForwardMultiplier>5</NoTargetForwardMultiplier>
+          <ParentToShootTransform>false</ParentToShootTransform>
+          <UseTargetCharacterPositionType>false</UseTargetCharacterPositionType>
+          <ImpactSoundMaterial>Fire</ImpactSoundMaterial>
+          <DontPlayHitSound>false</DontPlayHitSound>
+          <FXIsWorld>false</FXIsWorld>
+          <PlaySounOnRefresh>false</PlaySounOnRefresh>
+          <DelayFirstShoot>-1</DelayFirstShoot>
+          <PlayFXOnRefresh>false</PlayFXOnRefresh>
+          <EffectBehaviour>Destroy</EffectBehaviour>
+          <BlastEffects>
+            <SL_EffectTransform>
+              <TransformName>Effects</TransformName>
+              <Position xsi:nil="true" />
+              <Rotation xsi:nil="true" />
+              <Scale xsi:nil="true" />
+              <Effects>
+                <SL_Effect xsi:type="SL_WeaponDamage">
+                  <Delay>0</Delay>
+                  <SyncType>Everyone</SyncType>
+                  <OverrideCategory>None</OverrideCategory>
+                  <Damage />
+                  <Damages_AI />
+                  <Knockback>5</Knockback>
+                  <HitInventory>true</HitInventory>
+                  <IgnoreHalfResistances>false</IgnoreHalfResistances>
+                  <OverrideType>Fire</OverrideType>
+                  <ForceOnlyLeftHand>false</ForceOnlyLeftHand>
+                  <Damage_Multiplier>0</Damage_Multiplier>
+                  <Damage_Multiplier_Kback>-1</Damage_Multiplier_Kback>
+                  <Damage_Multiplier_Kdown>-1</Damage_Multiplier_Kdown>
+                  <Impact_Multiplier>0</Impact_Multiplier>
+                  <Impact_Multiplier_Kback>-1</Impact_Multiplier_Kback>
+                  <Impact_Multiplier_Kdown>-1</Impact_Multiplier_Kdown>
+                </SL_Effect>
+              </Effects>
+              <EffectConditions />
+              <ChildEffects />
+            </SL_EffectTransform>
+          </BlastEffects>
+          <DamageMultiplier>0.329999983</DamageMultiplier>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </Effects>
+  <AddedDamages />
+  <StatModifications />
+  <FlatDamageAdded />
+  <DamageModifierBonus />
+  <DamageResistanceBonus />
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>

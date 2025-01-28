@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>88</EnchantmentID>
+  <Name>Rainbow Hex</Name>
+  <Description />
+  <IncenseItemID>6000240</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>South</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Weapon</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Weapon</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas>
+    <AreaEnum>Emercar</AreaEnum>
+  </Areas>
+  <Temperature />
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects>
+    <SL_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Burn</StatusEffect>
+          <Buildup>21</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Chill</StatusEffect>
+          <Buildup>21</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Curse</StatusEffect>
+          <Buildup>21</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Doom</StatusEffect>
+          <Buildup>21</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Haunted</StatusEffect>
+          <Buildup>21</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </Effects>
+  <AddedDamages />
+  <StatModifications>
+    <StatModification>
+      <Stat>AttackSpeed</Stat>
+      <Type>Bonus</Type>
+      <Value>0.1</Value>
+    </StatModification>
+  </StatModifications>
+  <FlatDamageAdded />
+  <DamageModifierBonus />
+  <DamageResistanceBonus />
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>

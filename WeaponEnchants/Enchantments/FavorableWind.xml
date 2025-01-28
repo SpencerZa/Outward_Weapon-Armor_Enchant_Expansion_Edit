@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>5</EnchantmentID>
+  <Name>Favorable Wind</Name>
+  <Description />
+  <IncenseItemID>6000230</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Weapon</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Weapon</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay />
+  <Areas />
+  <Temperature />
+  <WindAltarActivated>true</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects />
+  <AddedDamages>
+    <AdditionalDamage>
+      <AddedDamageType>Ethereal</AddedDamageType>
+      <SourceDamageType>Physical</SourceDamageType>
+      <ConversionRatio>0.199999988</ConversionRatio>
+    </AdditionalDamage>
+  </AddedDamages>
+  <StatModifications>
+    <StatModification>
+      <Stat>AttackSpeed</Stat>
+      <Type>Bonus</Type>
+      <Value>0.1</Value>
+    </StatModification>
+  </StatModifications>
+  <FlatDamageAdded />
+  <DamageModifierBonus />
+  <DamageResistanceBonus />
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>

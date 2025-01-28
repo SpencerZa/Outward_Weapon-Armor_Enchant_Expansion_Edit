@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<SL_EnchantmentRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EnchantmentID>89</EnchantmentID>
+  <Name>Abomination</Name>
+  <Description />
+  <IncenseItemID>6000260</IncenseItemID>
+  <PillarDatas>
+    <PillarData>
+      <Direction>North</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>North</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>East</Direction>
+      <IsFar>false</IsFar>
+    </PillarData>
+    <PillarData>
+      <Direction>West</Direction>
+      <IsFar>true</IsFar>
+    </PillarData>
+  </PillarDatas>
+  <CompatibleEquipment>
+    <Equipments>
+      <IngredientData>
+        <SelectorType>Tag</SelectorType>
+        <SelectorValue>Weapon</SelectorValue>
+      </IngredientData>
+    </Equipments>
+    <RequiredTag>Weapon</RequiredTag>
+  </CompatibleEquipment>
+  <TimeOfDay>
+    <Vector2>
+      <x>18</x>
+      <y>5</y>
+    </Vector2>
+  </TimeOfDay>
+  <Areas />
+  <Temperature />
+  <WindAltarActivated>false</WindAltarActivated>
+  <IsEnchantingGuildRecipe>false</IsEnchantingGuildRecipe>
+  <EnchantTime>5</EnchantTime>
+  <Effects>
+    <SL_EffectTransform>
+      <TransformName>HitEffects</TransformName>
+      <Position xsi:nil="true" />
+      <Rotation xsi:nil="true" />
+      <Scale xsi:nil="true" />
+      <Effects>
+        <SL_Effect xsi:type="SL_AddStatusEffectBuildUp">
+          <Delay>0</Delay>
+          <SyncType>OwnerSync</SyncType>
+          <OverrideCategory>None</OverrideCategory>
+          <StatusEffect>Curse</StatusEffect>
+          <Buildup>35</Buildup>
+          <BuildUpMultiplier>1</BuildUpMultiplier>
+          <BypassCounter>false</BypassCounter>
+          <AffectController>false</AffectController>
+        </SL_Effect>
+      </Effects>
+      <EffectConditions />
+      <ChildEffects />
+    </SL_EffectTransform>
+  </Effects>
+  <AddedDamages>
+    <AdditionalDamage>
+      <AddedDamageType>Physical</AddedDamageType>
+      <SourceDamageType>Physical</SourceDamageType>
+      <ConversionRatio>0.799999952</ConversionRatio>
+    </AdditionalDamage>
+  </AddedDamages>
+  <StatModifications>
+    <StatModification>
+      <Stat>Impact</Stat>
+      <Type>Bonus</Type>
+      <Value>18</Value>
+    </StatModification>
+  </StatModifications>
+  <FlatDamageAdded />
+  <DamageModifierBonus />
+  <DamageResistanceBonus />
+  <HealthAbsorbRatio>0</HealthAbsorbRatio>
+  <ManaAbsorbRatio>0</ManaAbsorbRatio>
+  <StaminaAbsorbRatio>0</StaminaAbsorbRatio>
+  <Indestructible>false</Indestructible>
+  <TrackDamageRatio>-1</TrackDamageRatio>
+  <GlobalStatusResistance>0</GlobalStatusResistance>
+</SL_EnchantmentRecipe>
